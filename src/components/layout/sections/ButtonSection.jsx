@@ -11,7 +11,7 @@ export default function ButtonSection() {
 
  }
   return (
-   <section className="container text-center">
+   <section className="container text-center p-4">
     <h2>Button Section</h2>
     <button className={`btn ${isActive ? 'btn-primary' : 'btn-success'}`} onClick={handleChangeButton}>Change me!</button>
    </section>

@@ -11,7 +11,7 @@ export default function SectionTabs() {
 
 
   return (
-   <section>
+   <section className="p-4">
     <h2 className="text-center">SectionTabs</h2>
     <p className={alignment}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat, similique numquam nostrum eligendi facere, eum ipsam sunt facilis dolorum magni asperiores dolorem, necessitatibus porro autem? Ipsum modi sit repudiandae.</p>
     <div className="btn-group-divider btn-primary text-center">
