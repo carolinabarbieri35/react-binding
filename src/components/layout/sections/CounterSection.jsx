@@ -12,10 +12,11 @@ function handleReset () {
 }
 
   return (
-    <section className="container">
+    <section className="container text-center">
      <p className="display-1 text-center">{count}</p>
      <button onClick={handleIncrement} className="btn btn-primary mt-2">click me</button>
      <button onClick={handleReset} className="btn btn-secondary ms-2 mt-2">reset</button>
     </section>
+
   )
 }
